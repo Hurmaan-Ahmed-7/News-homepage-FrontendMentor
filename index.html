@@ -2,21 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <header>
+    <div id="header-body">
+      <img src="/assets/images/logo.svg" alt="">
+      <img src="/assets/images/icon-menu.svg" alt="" id="menu">
+    </div>
+    <div id="header-content">
+      <a href="">Home</a>
+      <a href="">New</a>
+      <a href="">Popular</a>
+      <a href="">Trending</a>
+      <a href="">Categories</a>
+    </div>
+  </header>
+  <div id="main-body">
+    <div id="main-article">
+      <picture>
+        <source
+          media="(max-width:800px)"
+          srcset="./assets/images/image-web-3-mobile.jpg"
+        />
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="web3" />
+      </picture>
+      <div id="main-article-content">
+        <h1>The Bright Future of Web 3.0</h1>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?</p>
+        <input type="button" value="READ MORE">
+      </div>
   </div>
+  <div id="main-side-bar">
+    <h2>New</h2>
+    <ul>
+      <nav>
+      <a href="#"><li>
+        <p>
+          <b>
+            Hydrogen vs Electric Cars
+          </b>
+        </p>
+        <p>
+          Will hydrogen-fueled cars ever catch up to EVs?
+        </p>
+        </li><hr>
+      </a>
+      <a href="#"><li>
+          <p>
+            <b>
+              Hydrogen vs Electric Cars
+            </b>
+          </p>
+          <p>
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </li>
+      </a><hr>
+      <a href="#"><li>
+          <p>
+            <b>
+              Hydrogen vs Electric Cars
+            </b>
+          </p>
+          <p>
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </li>
+      </a><hr>
+      </nav>
+    </ul>
+  </div>
+    
+  </div>
+  <footer>
+    <div id="footer-body">
+      <div id="footer-1" class="footer-child">
+        <img src="/assets/images/image-retro-pcs.jpg" alt="">
+        <h2>01</h2>
+        <p><b>Reviving Retro PCs</b><p>What happens when old PCs are given modern upgrades?</p></p>
+      </div>
+      <div id="footer-2" class="footer-child">
+        <img src="/assets/images/image-top-laptops.jpg" alt="">
+        <h2>02</h2>
+        <p><b>Top 10 Laptops of 2022</b><p>
+          Our best picks for carous needs and budgets
+        </p></p>
+      </div>
+      <div id="footer-3" class="footer-child">
+        <img src="/assets/images/image-gaming-growth.jpg" alt="">
+        <h2>03</h2>
+        <p><b>The Growth of Gaming</b><p class="">
+          How the pandemic has sparked fresh oppurtunities.
+        </p></p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
 <!-- 
@@ -28,8 +111,7 @@ Categories
 
 The Bright Future of Web 3.0?
 
-We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-But is it really fulfilling its promise?
+
 
 Read more
 
