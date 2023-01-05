@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+:root{
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+*{
+    font-family: 'Inter', sans-serif;
+}
+#menu{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: var(--Dark-grayish-blue);  
+}
+h1{
+    font-weight: 800;
+    font-size: 3rem;
+    color: var(--Very-dark-blue);
+}
+#main-article-content > p{
+    color: var(--Dark-grayish-blue);
+}
+#main-article-content > input{
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    letter-spacing: 5px;
+    padding: 1.4em;
+    border: none;
+    cursor: pointer;
+}
+#main-side-bar{
+    background-color: var(--Very-dark-blue);
+}
+ul{
+    padding: 2em;
+}
+li{
+    list-style: none;
+}
+#main-side-bar >
+ul > h2{
+    color: var(--Soft-orange);
+}
+.side-bar-sub-heading{
+    color: var(--Off-white);
+}
+.side-bar-about-article{
+    color: var(--Grayish-blue);
+}
+.num{
+    color: var(--Grayish-blue);
+}
+.footer-child-content{
+    color: var(--Dark-grayish-blue);
+}
