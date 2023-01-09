@@ -198,16 +198,34 @@ footer{
     .footer-child{
         margin: 5px;
     }
-    #close, #menu{
+    #menu{
         position: absolute;
         top: 40px;
         right: 15px;
         display: block;
+        /* display: none; */
+    }
+    #close{
+        display: block;
+        /* display: none; */
+        position: absolute;
+        top: 40px;
+        right: 15px;
+        
     }
     #header-content{
+        justify-content: center;
         position: absolute;
-        /* display: none; */
-        /* min-width: 70%;
-        min-height: 100vh; */
+        display: none;
+        
+        
+        background-color: var(--Off-white);
+        right: 0;
+        min-width: 70%;
+        min-height: 100vh;
+    }
+    #header-content > * {
+        font-size: 1rem;
+        color:var(--Very-dark-blue);
     }
 }
