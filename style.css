@@ -29,7 +29,7 @@ body{
 *{
     font-family: 'Inter', sans-serif;
 }
-#menu{
+#menu, #close{
     display: none;
 }
 header{
@@ -150,15 +150,22 @@ footer{
         margin: auto;
     }
     header{
-        display: block;
+        display: flex;
     }
     #header-body{
-        display: flex;
-        justify-content:space-between;
+        /* display: flex; */
+        
         margin-bottom: 10px;
     }
     #header-body > * {
         margin: 0 5px 0 5px;
+    }
+    #header-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #header-content > *{
+        margin: 10px;
     }
     #main-body{
         flex-direction: column;
@@ -191,10 +198,16 @@ footer{
     .footer-child{
         margin: 5px;
     }
-    #menu{
+    #close, #menu{
+        position: absolute;
+        top: 40px;
+        right: 15px;
         display: block;
     }
     #header-content{
-        display: none;
+        position: absolute;
+        /* display: none; */
+        /* min-width: 70%;
+        min-height: 100vh; */
     }
 }
