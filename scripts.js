@@ -7,7 +7,7 @@ var close_toggle = document.getElementById("close")
     document.getElementById("header-content").style.display = "flex"
     document.getElementById("close").style.display = "block"
     document.getElementById("close").style.zIndex = 1
-    
+    document.body.style.overflow = "hidden"
     
  })
 
@@ -15,5 +15,6 @@ var close_toggle = document.getElementById("close")
     document.getElementById("close").style.display = "none"
     document.getElementById("header-content").style.display = "none"
     document.getElementById("menu").style.display = "block";
+    document.body.style.overflow = ""
     
  })

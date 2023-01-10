@@ -172,6 +172,7 @@ footer{
     }
     #header-content > *{
         margin: 10px;
+        font-size: rem;
     }
     #main-body{
         flex-direction: column;
